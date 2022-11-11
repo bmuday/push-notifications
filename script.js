@@ -11,6 +11,12 @@ button.addEventListener("click", () => {
         tag: "Test Notification",
       });
 
+      const number = 1;
+      console.log(number);
+      if (number > 2) {
+        return "ok";
+      }
+
       notification1.addEventListener("error", (e) => {
         alert("error");
       });
